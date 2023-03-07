@@ -1,0 +1,239 @@
+body  {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.border {
+    border: solid 1px white;
+}
+
+#left-content {
+    box-sizing: border-box;
+    height: 1000px;
+    flex-grow: 0.3;
+
+}
+
+#main-content{
+    height: 1000px;
+    box-sizing: border-box;
+    flex-grow: 3;
+    max-width: 650px;
+    
+}
+
+#box1 {
+    box-sizing: border-box;
+}
+#right-content {
+    height: 1000px;
+    box-sizing: border-box;
+    flex-grow: 3;
+    margin-left: 20px;
+}
+
+
+#icon-content {
+    color: white;
+    font-size: 30px;
+    list-style: none;
+}
+
+#icon-content > li {
+    margin-top: 30px;
+   
+}
+
+label {
+    margin-left: 30px;
+}
+
+#buttontweet {
+    font-size: 30px;
+    margin-left: 80px;
+    width: 250px;
+    height: 45px;
+    border-radius: 30px;
+    background-color: #1DA1F2;
+    color: antiquewhite;
+}
+
+h1 {
+    margin-left: 10px;
+    color: white
+}
+header {
+    border: solid 1px white;
+}
+
+
+
+#mini-text ul {
+    list-style: none;
+    color: white;
+    margin-bottom: 0;
+    display: flex;
+    font-size: 30px;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+#for {
+    border-bottom: 5px solid #1DA1F2;
+    margin-bottom: 10px;
+}
+
+#profilepic {
+   width: 60px;
+   padding: 10px;
+   border: solid 1px white;
+}
+img {
+    width: 50px;
+    padding: 10px;
+}
+#profile {
+    display: flex;
+    align-items: center;
+    color: grey;
+}
+
+#profile label {
+    font-size: 30px; 
+}
+
+#bot-profile {
+    width: 250px;
+    display: flex;
+}
+
+
+
+
+#bot-profile ul {
+    margin-left: 50px;
+    display: flex;
+    list-style: none;
+    color: #1DA1F2;
+    font-size: 20px;
+}
+
+#bot-profile ul li {
+    margin-left: 10px;
+}
+
+#buttontweet2 {
+    font-size: 20px;
+    width: 80px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: #1DA1F2;
+    color: antiquewhite;
+    margin-left: 320px;
+ 
+
+}
+#tweets {
+    display: flex;
+    color: #1DA1F2;
+    font-size: 20px;
+    justify-content: center;
+}
+#tweets p {
+    margin: 0;
+}
+
+#newsfeedhome {
+    display: flex;
+    color: white;
+    margin:0;
+    padding: 0%;
+}
+
+#newsfeedhome label {
+    margin-left: 0%;
+    margin-top: 30px;
+}
+
+#newsfeedbox {
+    box-sizing: border-box;
+    color: white;
+    
+}
+#searchbar input {
+    background-color: lightgray;
+    font-size: 15px;
+    width: 250px;
+    height: 45px;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+
+#trends {
+    background-color: rgba(211, 211, 211, 0);
+    color: white;
+    height: 800px;
+    width: 400px;
+    margin-top: 20px;
+    border: solid 1px white;
+    border-radius: 30px;
+}
+
+#trends ul {
+    list-style: none;
+}
+
+#trends ul li {
+    margin-top: 70px;
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+   #icon-content label {
+    display: none;
+   }
+
+   #icon-content {
+    margin-right: 30px;
+   }
+   #buttontweet {
+    display: none;
+   }
+
+   main #profile {
+    display: none;
+   }
+
+   main #bot-profile {
+    display: none;
+   }
+
+   #right-content {
+    display: none;
+   }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
